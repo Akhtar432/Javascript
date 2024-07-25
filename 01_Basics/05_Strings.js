@@ -23,3 +23,7 @@ console.log(anotherString);
 const newStringone = "   Akhtar   ";
 console.log(newStringone);
 console.log(newStringone.trim());
+
+const url = "htpp://intezarakhtar@gmail.com/akhtar%20ansari"
+console.log(url.replace('%20', '-'))
+console.log(url.includes('ali'))
